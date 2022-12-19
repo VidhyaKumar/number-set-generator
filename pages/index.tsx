@@ -49,7 +49,10 @@ export default function Home() {
                             label="Size"
                             hideControls
                             value={arraySize}
-                            onChange={(val: number) => setArraySize(val)}
+                            onChange={(val: number) => {
+                                setArraySize(val);
+                                setNumberSets([]);
+                            }}
                             step={1}
                             max={7}
                             styles={{
