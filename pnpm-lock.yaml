@@ -7,6 +7,7 @@ specifiers:
   '@mantine/hooks': ^5.9.5
   '@mantine/next': ^5.9.5
   '@next/font': 13.0.7
+  '@tabler/icons': ^1.117.0
   '@types/node': 18.11.17
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.9
@@ -24,6 +25,7 @@ dependencies:
   '@mantine/hooks': 5.9.5_react@18.2.0
   '@mantine/next': 5.9.5_odc7g525exkk54a4anpochw4ci
   '@next/font': 13.0.7
+  '@tabler/icons': 1.117.0_biqbaboplfbrettd7655fr4n2y
   '@types/node': 18.11.17
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.9
@@ -855,6 +857,21 @@ packages:
     resolution: {integrity: sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==}
     dependencies:
       tslib: 2.4.1
+    dev: false
+
+  /@tabler/icons/1.117.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-4UGF8fMcROiy++CCNlzTz6p22rxFQD/fAMfaw/8Uanopl41X2SCZTmpnotS3C6Qdrk99m8eMZySa5w1y99gFqQ==}
+    peerDependencies:
+      react: ^16.x || 17.x || 18.x
+      react-dom: ^16.x || 17.x || 18.x
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /@types/json5/0.0.29:
